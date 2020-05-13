@@ -1,0 +1,72 @@
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    font-weight: 9em;
+    color: maroon;
+}  
+
+section .container {
+    background-color: #669999;
+    margin-bottom: 5px;
+    color: white;
+    border: 1px solid maroon;
+    text-align: justify;
+}
+
+section {
+    margin-top: 40px;
+    width: 100%;
+}
+
+a {
+    color: black;
+    font-size: 1.2em;
+}
+
+h3#one, #two, #three {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.navbar {
+    background-color: maroon;
+}
+
+.navbar a.navbar-brand {
+    font-weight: 500;
+    font-size: 2em; 
+    color: white;
+}
+
+@media(max-width:767px) {
+    .navbar-light .navbar-nav .nav-link {
+        color: white;
+        font-size: 1.4em;
+        border-bottom: 1px solid black;
+        text-align: center;
+        background-color: maroon;
+        box-sizing: border-box;
+        border-color: 1px solid black;
+    }
+
+    .first, .second, .third {
+        width: 100%;
+        float: left;
+    }
+}
+
+@media(min-width:768px) {
+    .navbar-toggler, .navbar-toggler-icon, .navbar-nav, .nav-link{
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .first, .second, .third {
+        width: 32%;
+        float: left;
+        margin: 4px;
+    }
+}
